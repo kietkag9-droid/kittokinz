@@ -150,6 +150,23 @@ a {
   object-fit: cover;
 }
 
+.hero-avatar-wrapper {
+  grid-column: 1 / -1;
+  display: grid;
+  place-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.hero-avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 0.04);
+}
+
 .hero-metrics {
   grid-column: 1 / -1;
 }
