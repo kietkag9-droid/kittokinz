@@ -12,9 +12,9 @@ const siteData = {
     { label: 'Thiết kế 3D giả', level: 78, color: '#8B5CF6' },
   ],
   projects: [
-    { title: 'Nebula Studio', description: 'Landing page thương hiệu với trải nghiệm gradient và các lớp chiều sâu.', tags: ['UI', 'Brand', 'Motion'], image: 'https://via.placeholder.com/400x250.png?text=Nebula+Studio' },
-    { title: 'Aurora Labs', description: 'Portfolio kỹ thuật số với hệ thống màu neon và hiệu ứng cuộn mượt mà.', tags: ['Web', 'Animation', 'Responsive'], image: 'https://via.placeholder.com/400x250.png?text=Aurora+Labs' },
-    { title: 'Pulse Card', description: 'Thiết kế thẻ sản phẩm cao cấp với hiệu ứng nổi và ánh sáng động.', tags: ['Product', 'Interaction', '3D'], image: 'https://via.placeholder.com/400x250.png?text=Pulse+Card' },
+    { title: 'Nebula Studio', description: 'Landing page thương hiệu với trải nghiệm gradient và các lớp chiều sâu.', tags: ['UI', 'Brand', 'Motion'], image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=640&q=80' },
+    { title: 'Aurora Labs', description: 'Portfolio kỹ thuật số với hệ thống màu neon và hiệu ứng cuộn mượt mà.', tags: ['Web', 'Animation', 'Responsive'], image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=640&q=80' },
+    { title: 'Pulse Card', description: 'Thiết kế thẻ sản phẩm cao cấp với hiệu ứng nổi và ánh sáng động.', tags: ['Product', 'Interaction', '3D'], image: 'https://images.unsplash.com/photo-1481277542470-605612bd2d61?auto=format&fit=crop&w=640&q=80' },
   ],
   experience: [
     { year: '2025', role: 'Senior Designer', company: 'Lava Studio', detail: 'Điều phối dự án trải nghiệm số cho khách hàng cao cấp.' },
