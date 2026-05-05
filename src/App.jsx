@@ -11,9 +11,9 @@ const siteData = {
     { label: 'Thiết kế 3D giả', level: 78, color: '#8B5CF6' },
   ],
   projects: [
-    { title: 'Nebula Studio', description: 'Landing page thương hiệu với trải nghiệm gradient và các lớp chiều sâu.', tags: ['UI', 'Brand', 'Motion'] },
-    { title: 'Aurora Labs', description: 'Portfolio kỹ thuật số với hệ thống màu neon và hiệu ứng cuộn mượt mà.', tags: ['Web', 'Animation', 'Responsive'] },
-    { title: 'Pulse Card', description: 'Thiết kế thẻ sản phẩm cao cấp với hiệu ứng nổi và ánh sáng động.', tags: ['Product', 'Interaction', '3D'] },
+    { title: 'Nebula Studio', description: 'Landing page thương hiệu với trải nghiệm gradient và các lớp chiều sâu.', tags: ['UI', 'Brand', 'Motion'], image: 'https://via.placeholder.com/400x250.png?text=Nebula+Studio' },
+    { title: 'Aurora Labs', description: 'Portfolio kỹ thuật số với hệ thống màu neon và hiệu ứng cuộn mượt mà.', tags: ['Web', 'Animation', 'Responsive'], image: 'https://via.placeholder.com/400x250.png?text=Aurora+Labs' },
+    { title: 'Pulse Card', description: 'Thiết kế thẻ sản phẩm cao cấp với hiệu ứng nổi và ánh sáng động.', tags: ['Product', 'Interaction', '3D'], image: 'https://via.placeholder.com/400x250.png?text=Pulse+Card' },
   ],
   experience: [
     { year: '2025', role: 'Senior Designer', company: 'Lava Studio', detail: 'Điều phối dự án trải nghiệm số cho khách hàng cao cấp.' },
@@ -136,6 +136,7 @@ function App() {
             {siteData.projects.map((project, index) => (
               <motion.article className="project-card" key={project.title} whileHover={{ y: -8, scale: 1.02 }} transition={{ duration: 0.3 }}>
                 <div className={`project-accent accent-${index + 1}`} />
+                <img className="project-image" src={project.image} alt={project.title} />
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
                 <div className="project-tags">
