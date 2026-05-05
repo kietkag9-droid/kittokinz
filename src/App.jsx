@@ -78,6 +78,14 @@ function App() {
             </div>
           </motion.div>
 
+          <motion.div className="hero-image-wrapper" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.15 }}>
+            <img
+              className="hero-image"
+              src="https://via.placeholder.com/640x640.png?text=Ảnh+Portfolio"
+              alt="Ảnh minh họa portfolio"
+            />
+          </motion.div>
+
           <motion.div className="hero-metrics" initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1.1, delay: 0.2 }}>
             <div className="metric-card">
               <span>12+</span>

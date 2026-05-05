@@ -136,6 +136,24 @@ a {
   gap: 2.5rem;
 }
 
+.hero-image-wrapper {
+  display: grid;
+  place-items: center;
+}
+
+.hero-image {
+  width: min(100%, 520px);
+  border-radius: 32px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.04);
+  box-shadow: 0 26px 80px rgba(0, 0, 0, 0.24);
+  object-fit: cover;
+}
+
+.hero-metrics {
+  grid-column: 1 / -1;
+}
+
 .eyebrow {
   display: inline-flex;
   padding: 0.75rem 1.25rem;
@@ -214,6 +232,13 @@ a {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.25rem;
+}
+
+@media (min-width: 992px) {
+  .hero-content {
+    grid-template-columns: 1.05fr 0.95fr;
+    align-items: center;
+  }
 }
 
 .metric-card {
