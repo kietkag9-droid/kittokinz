@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 const siteData = {
@@ -34,6 +35,23 @@ const gradientBlobs = [
 ];
 
 function App() {
+  useEffect(() => {
+    const anchors = Array.from(document.querySelectorAll('a[href^="#"]'));
+
+    const handleClick = (event) => {
+      event.preventDefault();
+      const href = event.currentTarget.getAttribute('href');
+      const target = href ? document.querySelector(href) : null;
+      target?.scrollIntoView({ behavior: 'smooth' });
+    };
+
+    anchors.forEach((anchor) => anchor.addEventListener('click', handleClick));
+
+    return () => {
+      anchors.forEach((anchor) => anchor.removeEventListener('click', handleClick));
+    };
+  }, []);
+
   const handleSubmit = (event) => {
     event.preventDefault();
   };
