@@ -120,6 +120,13 @@ function App() {
                 </div>
               ))}
             </div>
+            <motion.div className="about-image-wrapper" initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.2 }}>
+              <img
+                className="about-image"
+                src="https://via.placeholder.com/400x400.png?text=Hình+Ảnh+Cá+Nhân"
+                alt="Hình ảnh cá nhân"
+              />
+            </motion.div>
           </div>
         </motion.section>
 
