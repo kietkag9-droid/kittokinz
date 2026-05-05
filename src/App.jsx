@@ -141,7 +141,7 @@ function App() {
             <motion.div className="about-image-wrapper" initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.2 }}>
               <img
                 className="about-image"
-                src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/605630868_1374713017477417_5462270144693449261_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=1d70fc&_nc_eui2=AeEM_PLkpnb56bt8QkKU3e562Z8nIGQjACHZnycgZCMAIc4YkzYUoUPRrtbRkIqOKmtWe_OXse-Gqe-_0uOcvQHy&_nc_ohc=1Mwks3hPfGYQ7kNvwHW9vxM&_nc_oc=Ado25agjKiz3Z3q4WY4--8p5g0jiVY9fW96P0XW1W-WLLyO8exRISafBUJN-jMk_Lkw&_nc_zt=23&_nc_ht=scontent.fsgn2-7.fna&_nc_gid=OslV3dM9_-R0FnDJMx7xVA&_nc_ss=7b2a8&oh=00_Af4GQ0uL9RwpSpieyBx-RvlmgShwH74hcrgjaY7iWqxc5Q&oe=69FF5ACD"
+                src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/583482867_1348521423429910_7073331310559896751_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=53a332&_nc_eui2=AeGnMRDGC2uWozPLwZoPfpOloZoJrGYcnm6hmgmsZhyeblIvgvqrsaotC7oBTO9QryoQGjC2r_zsS82Mzw6ioGuP&_nc_ohc=ppdjprCO0iIQ7kNvwEKZeJT&_nc_oc=AdpamJzJJOleH79HLL9WYTQUl91RLD38thZsDFRXfTZMn2ANs7Ue74pYSYyyJ9ye-f4&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=Rgf4tECttCx1714fVJC_Aw&_nc_ss=7b2a8&oh=00_Af4iO6FjGkAvMKOs5FCyH8xTF5MiD-eElF91328vBHagJg&oe=69FF7A89"
                 alt="Hình ảnh cá nhân"
               />
             </motion.div>
