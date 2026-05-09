@@ -6,10 +6,10 @@ const siteData = {
   role: 'Creative UX/UI Designer',
   tagline: 'Xây dựng trải nghiệm web hiện đại, đậm chất nghệ thuật và công nghệ.',
   skills: [
-    { label: 'Thiết kế trải nghiệm', level: 92, color: '#00D4FF' },
-    { label: 'Thiết kế giao diện', level: 88, color: '#7C3AED' },
-    { label: 'Hiệu ứng tương tác', level: 84, color: '#FF4D9D' },
-    { label: 'Thiết kế 3D giả', level: 78, color: '#8B5CF6' },
+    { label: 'Thiết kế trải nghiệm', level: 92, color: '#38B5FF' },
+    { label: 'Thiết kế giao diện', level: 88, color: '#6AA9FF' },
+    { label: 'Hiệu ứng tương tác', level: 84, color: '#29D7FF' },
+    { label: 'Thiết kế 3D giả', level: 78, color: '#70B0FF' },
   ],
   projects: [
     { title: 'Nebula Studio', description: 'Landing page thương hiệu với trải nghiệm gradient và các lớp chiều sâu.', tags: ['UI', 'Brand', 'Motion'], image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=640&q=80' },
@@ -87,7 +87,7 @@ function App() {
         <div className="hero-content">
           <motion.div className="hero-avatar-wrapper" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.1 }}>
             <img
-              src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/605630868_1374713017477417_5462270144693449261_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=1d70fc&_nc_eui2=AeEM_PLkpnb56bt8QkKU3e562Z8nIGQjACHZnycgZCMAIc4YkzYUoUPRrtbRkIqOKmtWe_OXse-Gqe-_0uOcvQHy&_nc_ohc=1Mwks3hPfGYQ7kNvwHW9vxM&_nc_oc=Ado25agjKiz3Z3q4WY4--8p5g0jiVY9fW96P0XW1W-WLLyO8exRISafBUJN-jMk_Lkw&_nc_zt=23&_nc_ht=scontent.fsgn2-7.fna&_nc_gid=OslV3dM9_-R0FnDJMx7xVA&_nc_ss=7b2a8&oh=00_Af4GQ0uL9RwpSpieyBx-RvlmgShwH74hcrgjaY7iWqxc5Q&oe=69FF5ACD"
+              src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/583482867_1348521423429910_7073331310559896751_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=53a332&_nc_eui2=AeGnMRDGC2uWozPLwZoPfpOloZoJrGYcnm6hmgmsZhyeblIvgvqrsaotC7oBTO9QryoQGjC2r_zsS82Mzw6ioGuP&_nc_ohc=ppdjprCO0iIQ7kNvwEKZeJT&_nc_oc=AdpamJzJJOleH79HLL9WYTQUl91RLD38thZsDFRXfTZMn2ANs7Ue74pYSYyyJ9ye-f4&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=Rgf4tECttCx1714fVJC_Aw&_nc_ss=7b2a8&oh=00_Af4iO6FjGkAvMKOs5FCyH8xTF5MiD-eElF91328vBHagJg&oe=69FF7A89"
               alt="Profile avatar"
               className="hero-avatar"
             />
