@@ -19,7 +19,6 @@ const siteData = {
   projects: [
     { title: 'Paper Cup', description: 'Thiết kế thương hiệu Paper Cup với cảm hứng tĩnh lặng và tông xanh đêm.', tags: ['UI', 'Brand', 'Motion'], image: paperCupImage },
     { title: 'Thiết kế animation game', description: 'Thiết kế giao diện game với phong cách pixel art động và lôi cuốn người chơi.', tags: ['Game', 'Animation', 'Pixel'], image: gameAnimationImage },
-    { title: 'Dinh Độc Lập', description: 'Thiết kế dự án Dinh Độc Lập với chiều sâu lịch sử, bố cục trang trọng và tông màu sáng tươi.', tags: ['Architecture', 'Heritage', 'Brand'], image: 'https://images.unsplash.com/photo-1481070555759-5cb9935f3537?auto=format&fit=crop&w=640&q=80' },
   ],
   experience: [
     { year: '2025', role: 'Senior Designer', company: 'Lava Studio', detail: 'Điều phối dự án trải nghiệm số cho khách hàng cao cấp.' },
@@ -79,20 +78,12 @@ function App() {
       </nav>
 
       <header className="hero-section">
-        {gradientBlobs.map((blob) => (
-          <motion.div
-            key={blob.className}
-            className={blob.className}
-            initial={{ opacity: 0, scale: 0.8, y: -30 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            transition={{ duration: 1.2, ease: 'easeOut', delay: blob.delay, repeat: Infinity, repeatType: 'reverse', repeatDelay: 3 }}
-          />
-        ))}
-
         <div className="hero-content">
           <motion.div className="hero-avatar-wrapper" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.1 }}>
             <img
                 src={avatarSrc}
+                alt="Profile avatar"
+                className="hero-avatar"
             />
           </motion.div>
 
