@@ -521,6 +521,21 @@ a {
   margin-top: 0;
 }
 
+.contact-avatar-card {
+  margin-top: 1.8rem;
+  display: grid;
+  place-items: center;
+}
+
+.contact-avatar {
+  width: min(180px, 100%);
+  height: min(180px, 100%);
+  border-radius: 28px;
+  object-fit: cover;
+  border: 1px solid rgba(61, 181, 255, 0.22);
+  box-shadow: 0 20px 56px rgba(0, 163, 255, 0.18);
+}
+
 .social-row {
   display: flex;
   flex-wrap: wrap;

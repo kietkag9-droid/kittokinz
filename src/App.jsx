@@ -1,5 +1,8 @@
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
+import gameAnimationImage from './assets/game-animation.svg';
+
+const avatarSrc = 'https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/583482867_1348521423429910_7073331310559896751_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=53a332&_nc_eui2=AeGnMRDGC2uWozPLwZoPfpOloZoJrGYcnm6hmgmsZhyeblIvgvqrsaotC7oBTO9QryoQGjC2r_zsS82Mzw6ioGuP&_nc_ohc=ppdjprCO0iIQ7kNvwEKZeJT&_nc_oc=AdpamJzJJOleH79HLL9WYTQUl91RLD38thZsDFRXfTZMn2ANs7Ue74pYSYyyJ9ye-f4&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=Rgf4tECttCx1714fVJC_Aw&_nc_ss=7b2a8&oh=00_Af4iO6FjGkAvMKOs5FCyH8xTF5MiD-eElF91328vBHagJg&oe=69FF7A89';
 
 const siteData = {
   name: 'Kittokinz',
@@ -12,9 +15,9 @@ const siteData = {
     { label: 'Thiết kế 3D giả', level: 78, color: '#70B0FF' },
   ],
   projects: [
-    { title: 'Nebula Studio', description: 'Landing page thương hiệu với trải nghiệm gradient và các lớp chiều sâu.', tags: ['UI', 'Brand', 'Motion'], image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=640&q=80' },
-    { title: 'Aurora Labs', description: 'Portfolio kỹ thuật số với hệ thống màu neon và hiệu ứng cuộn mượt mà.', tags: ['Web', 'Animation', 'Responsive'], image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=640&q=80' },
-    { title: 'Pulse Card', description: 'Thiết kế thẻ sản phẩm cao cấp với hiệu ứng nổi và ánh sáng động.', tags: ['Product', 'Interaction', '3D'], image: 'https://images.unsplash.com/photo-1481277542470-605612bd2d61?auto=format&fit=crop&w=640&q=80' },
+    { title: 'Paper Cup', description: 'Thiết kế thương hiệu Paper Cup với cảm hứng tĩnh lặng và tông xanh đêm.', tags: ['UI', 'Brand', 'Motion'], image: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=640&q=80' },
+    { title: 'Thiết kế animation game', description: 'Thiết kế giao diện game với phong cách pixel art động và lôi cuốn người chơi.', tags: ['Game', 'Animation', 'Pixel'], image: gameAnimationImage },
+    { title: 'Dinh Độc Lập', description: 'Thiết kế dự án Dinh Độc Lập với chiều sâu lịch sử, bố cục trang trọng và tông màu sáng tươi.', tags: ['Architecture', 'Heritage', 'Brand'], image: 'https://images.unsplash.com/photo-1481070555759-5cb9935f3537?auto=format&fit=crop&w=640&q=80' },
   ],
   experience: [
     { year: '2025', role: 'Senior Designer', company: 'Lava Studio', detail: 'Điều phối dự án trải nghiệm số cho khách hàng cao cấp.' },
@@ -87,9 +90,7 @@ function App() {
         <div className="hero-content">
           <motion.div className="hero-avatar-wrapper" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.1 }}>
             <img
-              src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/583482867_1348521423429910_7073331310559896751_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=53a332&_nc_eui2=AeGnMRDGC2uWozPLwZoPfpOloZoJrGYcnm6hmgmsZhyeblIvgvqrsaotC7oBTO9QryoQGjC2r_zsS82Mzw6ioGuP&_nc_ohc=ppdjprCO0iIQ7kNvwEKZeJT&_nc_oc=AdpamJzJJOleH79HLL9WYTQUl91RLD38thZsDFRXfTZMn2ANs7Ue74pYSYyyJ9ye-f4&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=Rgf4tECttCx1714fVJC_Aw&_nc_ss=7b2a8&oh=00_Af4iO6FjGkAvMKOs5FCyH8xTF5MiD-eElF91328vBHagJg&oe=69FF7A89"
-              alt="Profile avatar"
-              className="hero-avatar"
+                src={avatarSrc}
             />
           </motion.div>
 
@@ -122,8 +123,8 @@ function App() {
           <div className="section-heading"><span>01</span><h2>Giới thiệu</h2></div>
           <div className="about-grid">
             <div className="about-copy">
-              <p>Tôi tạo ra những trải nghiệm kỹ thuật số hiện đại bằng cách hòa quyện màu sắc, chuyển động và cấu trúc trực quan.</p>
-              <p>Thiết kế của tôi tập trung vào sự sang trọng, rõ ràng và cảm giác đậm chất công nghệ, phù hợp cho portfolio, thương hiệu và sản phẩm cao cấp.</p>
+              <p>Tôi là Kiệt, sinh viên ngành Thiết kế Đồ họa tại Trường Đại học Gia Định, đang theo đuổi việc sáng tạo những trải nghiệm kỹ thuật số hiện đại bằng cách kết hợp hài hòa giữa màu sắc, chuyển động và cấu trúc trực quan.</p>
+              <p>Trong quá trình học tập và phát triển, tôi tập trung xây dựng phong cách thiết kế mang tính sang trọng, rõ ràng và đậm chất công nghệ, hướng đến các sản phẩm portfolio, nhận diện thương hiệu và những dự án cao cấp.</p>
             </div>
             <div className="skill-panel">
               {siteData.skills.map((skill) => (
@@ -141,7 +142,7 @@ function App() {
             <motion.div className="about-image-wrapper" initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.2 }}>
               <img
                 className="about-image"
-                src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/583482867_1348521423429910_7073331310559896751_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=53a332&_nc_eui2=AeGnMRDGC2uWozPLwZoPfpOloZoJrGYcnm6hmgmsZhyeblIvgvqrsaotC7oBTO9QryoQGjC2r_zsS82Mzw6ioGuP&_nc_ohc=ppdjprCO0iIQ7kNvwEKZeJT&_nc_oc=AdpamJzJJOleH79HLL9WYTQUl91RLD38thZsDFRXfTZMn2ANs7Ue74pYSYyyJ9ye-f4&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=Rgf4tECttCx1714fVJC_Aw&_nc_ss=7b2a8&oh=00_Af4iO6FjGkAvMKOs5FCyH8xTF5MiD-eElF91328vBHagJg&oe=69FF7A89"
+                src={avatarSrc}
                 alt="Hình ảnh cá nhân"
               />
             </motion.div>
@@ -194,6 +195,9 @@ function App() {
                 <a href="#" className="social-pill">Behance</a>
                 <a href="#" className="social-pill">Dribbble</a>
                 <a href="#" className="social-pill">LinkedIn</a>
+              </div>
+              <div className="contact-avatar-card">
+                <img src={avatarSrc} alt="Avatar liên hệ" className="contact-avatar" />
               </div>
             </div>
             <form className="contact-form" onSubmit={handleSubmit}>
