@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import gameAnimationImage from './assets/game-animation.svg';
-import paperCutSceneImage from './assets/paper-cut-scene.svg';
+import paperCutSceneImage from './assets/paper-cut-wolf.svg';
+import paperCupImage from './assets/paper-cup-image.png';
 
 const avatarSrc = 'https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/583482867_1348521423429910_7073331310559896751_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=53a332&_nc_eui2=AeGnMRDGC2uWozPLwZoPfpOloZoJrGYcnm6hmgmsZhyeblIvgvqrsaotC7oBTO9QryoQGjC2r_zsS82Mzw6ioGuP&_nc_ohc=ppdjprCO0iIQ7kNvwEKZeJT&_nc_oc=AdpamJzJJOleH79HLL9WYTQUl91RLD38thZsDFRXfTZMn2ANs7Ue74pYSYyyJ9ye-f4&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=Rgf4tECttCx1714fVJC_Aw&_nc_ss=7b2a8&oh=00_Af4iO6FjGkAvMKOs5FCyH8xTF5MiD-eElF91328vBHagJg&oe=69FF7A89';
 
@@ -16,7 +17,7 @@ const siteData = {
     { label: 'Thiết kế 3D giả', level: 78, color: '#70B0FF' },
   ],
   projects: [
-    { title: 'Paper Cup', description: 'Thiết kế thương hiệu Paper Cup với cảm hứng tĩnh lặng và tông xanh đêm.', tags: ['UI', 'Brand', 'Motion'], image: paperCutSceneImage },
+    { title: 'Paper Cup', description: 'Thiết kế thương hiệu Paper Cup với cảm hứng tĩnh lặng và tông xanh đêm.', tags: ['UI', 'Brand', 'Motion'], image: paperCupImage },
     { title: 'Thiết kế animation game', description: 'Thiết kế giao diện game với phong cách pixel art động và lôi cuốn người chơi.', tags: ['Game', 'Animation', 'Pixel'], image: gameAnimationImage },
     { title: 'Dinh Độc Lập', description: 'Thiết kế dự án Dinh Độc Lập với chiều sâu lịch sử, bố cục trang trọng và tông màu sáng tươi.', tags: ['Architecture', 'Heritage', 'Brand'], image: 'https://images.unsplash.com/photo-1481070555759-5cb9935f3537?auto=format&fit=crop&w=640&q=80' },
   ],

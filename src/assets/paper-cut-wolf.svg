@@ -1,0 +1,32 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wolf and mountain night scene">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10274b"/>
+      <stop offset="100%" stop-color="#1f3f78"/>
+    </linearGradient>
+    <linearGradient id="moonGlare" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8f7e6"/>
+      <stop offset="100%" stop-color="#e0e5fc"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef9e0" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#6b8ed8" stop-opacity="0.0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="520" rx="36" fill="#f6f9ff"/>
+  <rect x="28" y="28" width="744" height="464" rx="28" fill="url(#sky)"/>
+  <circle cx="430" cy="110" r="72" fill="url(#moonGlare)"/>
+  <circle cx="430" cy="110" r="120" fill="url(#moonGlow)"/>
+  <path d="M0 420 C130 300 220 350 330 330 C450 300 520 360 640 340 C720 330 790 400 800 420 L800 520 L0 520 Z" fill="#325b99"/>
+  <path d="M0 360 C110 250 200 300 310 280 C430 250 480 320 580 295 C670 275 760 340 800 360 L800 520 L0 520 Z" fill="#3b6db5"/>
+  <path d="M0 310 C90 210 170 240 280 220 C390 200 470 260 560 235 C650 210 760 280 800 300 L800 520 L0 520 Z" fill="#5b82c6"/>
+  <path d="M0 260 C80 170 140 190 240 170 C340 150 420 210 520 185 C620 160 700 220 800 240 L800 520 L0 520 Z" fill="#7aa2df"/>
+  <path d="M180 390 C178 360 200 346 210 324 C220 302 240 280 275 278 C310 276 328 300 348 310 C368 320 385 306 400 292 C415 278 435 270 462 278 C490 286 510 320 530 330 C550 340 580 336 600 318 C620 300 626 280 616 264 C606 248 586 248 560 250 C534 252 512 252 508 238 C504 224 520 208 538 202 C556 196 572 204 584 220 C596 236 602 262 600 284 C598 306 586 326 568 338 C550 350 528 358 500 360 C472 362 438 356 410 340 C382 324 366 300 340 298 C314 296 286 318 270 340 C254 362 242 390 240 420 Z" fill="#f6f7ff"/>
+  <path d="M240 392 C248 370 268 358 283 340 C298 322 311 300 336 296 C361 292 376 318 392 330 C408 342 422 338 436 332 C450 326 468 318 482 328 C496 338 500 356 496 376 C492 396 478 410 456 416 C434 422 408 424 382 420 C356 416 334 404 316 388 C298 372 284 352 274 332 C264 312 262 294 265 280 C268 266 278 254 294 248 C310 242 328 244 346 252 C364 260 372 276 372 296 C372 316 364 334 348 344 C332 354 308 364 286 372 C264 380 246 392 240 392 Z" fill="#3d4b76" opacity="0.95"/>
+  <path d="M320 72 C320 90 300 110 280 110 C260 110 242 100 236 80 C230 60 242 46 264 46 C286 46 312 56 320 72 Z" fill="#f5f6ff" opacity="0.9"/>
+  <circle cx="120" cy="90" r="4" fill="#fff" opacity="0.8"/>
+  <circle cx="220" cy="55" r="3" fill="#fff" opacity="0.8"/>
+  <circle cx="570" cy="75" r="5" fill="#fff" opacity="0.75"/>
+  <circle cx="660" cy="130" r="6" fill="#fff" opacity="0.75"/>
+  <circle cx="720" cy="100" r="4" fill="#fff" opacity="0.6"/>
+</svg>
